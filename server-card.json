@@ -1,0 +1,25 @@
+{
+  "error": "Error: server card fetch failed 522",
+  "fallback": {
+    "slug": "jcodeharness",
+    "name": "JCode Harness Cloud",
+    "website": "https://jcodeharness.clauxel.com/",
+    "endpoint": "https://jcodeharness.clauxel.com/mcp",
+    "serverCard": "https://jcodeharness.clauxel.com/.well-known/mcp/server-card.json",
+    "registryName": "com.clauxel.jcodeharness/jcodeharness-mcp",
+    "tools": [
+      "plan_coding_task",
+      "suggest_safe_command",
+      "record_test_verdict",
+      "read_run_history"
+    ],
+    "docsRepo": "jcode-harness-cloud-mcp",
+    "docs": "https://github.com/clauxel/jcode-harness-cloud-mcp",
+    "packageName": "@clauxel/jcodeharness-mcp",
+    "directoryName": "jcodeharness-mcp",
+    "category": "Developer Tools",
+    "tagline": "Hosted MCP for OpenAI Codex harness MCP.",
+    "description": "JCode Harness Cloud is a paid remote MCP endpoint for OpenAI Codex harness MCP. It exposes structured JSON tools, a public server card, token-based access, usage receipts, and audit-ready workflow evidence for AI agents and coding teams.",
+    "icon": "https://jcodeharness.clauxel.com/favicon.svg"
+  }
+}
