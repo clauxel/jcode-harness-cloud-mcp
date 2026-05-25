@@ -1,0 +1,15 @@
+# JCode Harness Cloud
+
+JCode Harness Cloud is a hosted remote MCP for OpenAI Codex harness MCP.
+
+Website: https://jcodeharness.clauxel.com/
+Docs pattern reference: https://github.com/clauxel/MiroFish
+Primary keyword: OpenAI Codex harness MCP
+Type: MCP
+Default plan: team
+MCP endpoint: https://jcodeharness.clauxel.com/mcp
+Server card: https://jcodeharness.clauxel.com/server-card.json
+Registry name: com.clauxel.jcodeharness/jcodeharness-mcp
+Tools: plan_coding_task, suggest_safe_command, record_test_verdict, read_run_history
+
+Public boundary: docs-only repository; no production source code or secrets.
