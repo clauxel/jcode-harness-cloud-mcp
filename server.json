@@ -1,0 +1,31 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.clauxel.jcodeharness/jcodeharness-mcp",
+  "description": "JCode Harness Cloud is a hosted remote MCP for OpenAI Codex harness MCP.",
+  "version": "1.0.0",
+  "website_url": "https://jcodeharness.clauxel.com/",
+  "repository": {
+    "url": "https://github.com/clauxel/jcode-harness-cloud-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://jcodeharness.clauxel.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer token from the product website.",
+          "is_required": true,
+          "is_secret": true
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "title": "JCode Harness Cloud MCP",
+      "server_card_url": "https://jcodeharness.clauxel.com/server-card.json"
+    }
+  }
+}
