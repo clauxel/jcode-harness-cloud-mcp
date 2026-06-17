@@ -3,6 +3,8 @@ main = "worker/hotwords.js"
 compatibility_date = "2026-06-17"
 workers_dev = true
 routes = [
+  { pattern = "jcodeharness.clauxel.com/assets/app.js*", zone_name = "clauxel.com" },
+  { pattern = "jcodeharness.clauxel.com/checkout*", zone_name = "clauxel.com" },
   { pattern = "jcodeharness.clauxel.com/api/runtime*", zone_name = "clauxel.com" },
   { pattern = "jcodeharness.clauxel.com/api/checkout*", zone_name = "clauxel.com" },
   { pattern = "jcodeharness.clauxel.com/api/nowpayments-checkout*", zone_name = "clauxel.com" },
