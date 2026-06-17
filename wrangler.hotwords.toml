@@ -3,6 +3,11 @@ main = "worker/hotwords.js"
 compatibility_date = "2026-06-17"
 workers_dev = true
 routes = [
+  { pattern = "jcodeharness.clauxel.com/api/runtime*", zone_name = "clauxel.com" },
+  { pattern = "jcodeharness.clauxel.com/api/checkout*", zone_name = "clauxel.com" },
+  { pattern = "jcodeharness.clauxel.com/api/nowpayments-checkout*", zone_name = "clauxel.com" },
+  { pattern = "jcodeharness.clauxel.com/api/agent-checkout*", zone_name = "clauxel.com" },
+  { pattern = "jcodeharness.clauxel.com/api/webhooks/nowpayments*", zone_name = "clauxel.com" },
   { pattern = "jcodeharness.clauxel.com/codex-harness-mcp*", zone_name = "clauxel.com" },
   { pattern = "jcodeharness.clauxel.com/coding-agent-test-harness*", zone_name = "clauxel.com" },
   { pattern = "jcodeharness.clauxel.com/openai-codex-run-ledger*", zone_name = "clauxel.com" },
@@ -10,6 +15,11 @@ routes = [
   { pattern = "jcodeharness.clauxel.com/robots.txt*", zone_name = "clauxel.com" },
   { pattern = "jcodeharness.clauxel.com/llms.txt*", zone_name = "clauxel.com" }
 ]
+
+[vars]
+SITE_KEY = "jcodeharness"
+SUPPORT_EMAIL = "support@aigeamy.com"
+NOWPAYMENTS_PAY_CURRENCY = "USDCMATIC"
 
 [assets]
 directory = "./public-hotwords"
