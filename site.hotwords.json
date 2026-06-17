@@ -1,0 +1,24 @@
+{
+  "brand": "JCode Harness Cloud",
+  "domain": "jcodeharness.clauxel.com",
+  "tagline": "Hosted MCP harness evidence for coding agents, Codex-style runs, command review, and test verdicts.",
+  "description": "Hosted MCP harness evidence for coding agents, Codex-style runs, command review, and test verdicts.",
+  "audience": "coding-agent operators, platform teams, and developers reviewing automated code runs",
+  "pages": [
+    [
+      "codex-harness-mcp",
+      "Codex harness MCP for coding agents",
+      "Expose planning, command review, test verdicts, and run history as MCP-ready workflow evidence."
+    ],
+    [
+      "coding-agent-test-harness",
+      "Coding agent test harness",
+      "Give coding agents a repeatable path for command safety, test execution, and reviewer-readable receipts."
+    ],
+    [
+      "openai-codex-run-ledger",
+      "OpenAI Codex run ledger",
+      "Track Codex-style coding sessions with run summaries, decisions, commands, and verification state."
+    ]
+  ]
+}
